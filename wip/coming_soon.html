@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>conf.kde.in 2014</title>
+		<link rel="icon" href="img/favicon.ico"/>
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<style type="text/css">
+			#title {
+				font-family: "Segoe UI Light";
+				font-size: 72px;
+				text-align: center;
+				cursor: pointer;
+			}
+			#caption {
+				font-family: "Segoe UI Light";
+				font-size: 64px;
+				text-align: center;
+				cursor: pointer;
+				color: #3498db;
+			}
+
+			#wait {
+				color: #f1c40f;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="title">conf.kde.in 2014</div>
+		<div id="caption">Coming soon<br/><span id="wait">.</span></div>
+		<script type="text/javascript">
+			$("#caption").hide();
+			$("#caption").fadeIn(4000);
+		</script>
+		<script>
+			var dots = window.setInterval( function() {
+			    var wait = document.getElementById("wait");
+			    if ( wait.innerHTML.length > 5 ) 
+			        wait.innerHTML = "";
+			    else 
+			        wait.innerHTML += ".";
+			    }, 500);
+		</script>
+	</body>
+</html>

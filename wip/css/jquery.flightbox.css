@@ -1,0 +1,125 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 8:41:32 Aug 19, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:03:54 Nov 11, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+#floverlay {
+	background-color: 	#000000;
+	opacity: 			0.9;
+	position: 			fixed;
+	top: 				0px;
+	left: 0px;
+	z-index: 			1000;
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";*/
+	filter: alpha(opacity=90);
+
+}
+
+#flightbox {
+	top: 100px;
+	width: 100px;
+	height: 100px;
+	position: 		absolute;
+	background-color: 	#FFFFFF;
+	z-index: 1001;
+	padding: 10px;
+	background: #FFFFFF url(/web/20110819084132/http://kde.in/wp-content/plugins/flickr-gallery/flightbox/images/loading.gif) no-repeat scroll center center;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+
+}
+
+#flightbox-close {
+	float: right;
+	width: 75px;
+	height: 18px;
+	background: #FFFFFF url(/web/20110819084132/http://kde.in/wp-content/plugins/flickr-gallery/flightbox/images/close.gif) no-repeat scroll center center;
+	text-align: right;
+	cursor: pointer;
+}
+
+#flightbox-prev, #flightbox-next {
+	width: 54px;
+	height: 33px;
+	position: absolute;
+	top: 25%;
+	display: none;
+}
+
+#flightbox-prev {
+	left: 0px;
+	background: #FFFFFF url(/web/20110819084132/http://kde.in/wp-content/plugins/flickr-gallery/flightbox/images/prev.gif) no-repeat scroll center left;	
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin-left: -5px;
+}
+
+
+#flightbox-next {
+	right: 0px;
+	background: #FFFFFF url(/web/20110819084132/http://kde.in/wp-content/plugins/flickr-gallery/flightbox/images/next.gif) no-repeat scroll center right;	
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	margin-right: -5px;
+}
+
+#flightbox-left, #flightbox-right {
+	position: absolute;
+	top: 15px;
+	cursor: pointer;
+	z-index: 20000;
+	background-image: url(/web/20110819084132/http://kde.in/wp-content/plugins/flickr-gallery/flightbox/images/blank.gif);
+}
+
+#flightbox-video {
+	z-index: 20001;
+}
+
+#flightbox-left { left: 15px; }
+#flightbox-right { right: 15px; }
+
+
+#flightbox-image {
+	display: none;
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+#flightbox-meta {
+	padding-top: 5px;
+	display: none;
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+#flightbox-title {
+	font-size: 12pt;
+	font-family: Arial;
+	margin-right: 40px;
+}
+
+#flightbox-flickr-link {
+	float:right;
+	font-size: 11px;
+	margin-top: 2px;
+	padding-left: 20px;
+	background-image: url(/web/20110819084132/http://kde.in/wp-content/plugins/flickr-gallery/flightbox/images/flickr.png);
+	background-repeat: no-repeat;
+}

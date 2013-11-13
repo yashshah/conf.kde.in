@@ -1,0 +1,644 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 7:31:22 Jul 17, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:03:55 Nov 11, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+Theme Name: KDE4WP
+Theme URI: http://kde.org/
+Description: WordPress theme done after KDE WWW style.
+Author: KDE WWW team
+Version: 1.1
+Tags: blue, white, two-columns, fixed-width
+
+Fonts preload*/
+/*+clearfix {*/
+.main_menu:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+}
+.main_menu
+{
+	display: inline-block;
+}
+.main_menu
+{
+/*\*/
+	display: block;
+/**/
+	-height: 1px;
+}
+/*+}*/
+@font-face
+{
+	font-family: "Droid Sans";
+	font-style: normal;
+	font-weight: bold;
+	src: local('Droid Sans Bold'), local('DroidSans-Bold'), url('/web/20110717073122/http://themes.googleusercontent.com/font?kit=EFpQQyG9GqCrobXxL-KRMQJKKGfqHaYFsRG-T3ceEVo') format('truetype');
+}
+@font-face
+{
+	font-family: "Droid Sans";
+	font-style: normal;
+	font-weight: normal;
+	src: local('Droid Sans'), local('DroidSans'), url('/web/20110717073122/http://themes.googleusercontent.com/font?kit=rS9BT6-asrfjpkcV3DXf__esZW2xOQ-xsNqO47m55DA') format('truetype');
+}
+/*HTML reset*/
+HTML
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+BODY, DIV, SPAN, OBJECT, IFRAME, H1, H2, H3, H4, H5, H6, P, BLOCKQUOTE, PRE, A, ABBR, ACRONYM, ADDRESS, CODE, DEL, DFN, EM, IMG, Q, DL, DT, DD, OL, UL, LI, FIELDSET, FORM, LABEL, LEGEND, TABLE, CAPTION, TBODY, TFOOT, THEAD, TR, TH, TD, ARTICLE, ASIDE, DIALOG, FIGURE, FOOTER, HEADER, HGROUP, NAV, SECTION
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+ARTICLE, ASIDE, DIALOG, FIGURE, FOOTER, HEADER, HGROUP, NAV, SECTION
+{
+	display: block;
+}
+BODY
+{
+	line-height: 1.5;
+	background: #FFFFFF ;
+}
+TABLE
+{
+	border-collapse: separate;
+	border-spacing: 0;
+}
+CAPTION, TH, TD
+{
+	text-align: left;
+	font-weight: normal;
+	float: none !important;
+}
+TABLE, TH, TD
+{
+	vertical-align: middle;
+}
+BLOCKQUOTE:before, BLOCKQUOTE:after, Q:before, Q:after
+{
+	content: '';
+}
+BLOCKQUOTE, Q
+{
+	quotes: "" "";
+}
+A IMG
+{
+	border: none;
+}
+:focus
+{
+	outline: 0;
+}
+/*Skeleton*/
+#wrapper
+{
+	width: 100%;
+        background: transparent url('../img/languages.png') no-repeat fixed top center;
+}
+#page
+{
+	width: 920px;
+	max-width: 920px;
+	min-width: 920px;
+	margin: 40px auto;
+	padding: 0px;
+	background-color: rgba(255, 255, 255, 0.8);
+	=background: #FFF;
+	border: 1px solid #FFF;
+	/*+border-radius:4px;*/
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px 4px 4px 4px;
+	/*+box-shadow:0 2px 10px rgba(0, 61, 127, 0.5);*/
+	-moz-box-shadow: 0 2px 10px rgba(0, 61, 127, 0.5);
+	-webkit-box-shadow: 0 2px 10px rgba(0, 61, 127, 0.5);
+	-o-box-shadow: 0 2px 10px rgba(0, 61, 127, 0.5);
+	box-shadow: 0 2px 10px rgba(0, 61, 127, 0.5);
+}
+#header, #main, #footer
+{
+	width: 840px;
+	padding: 10px 40px;
+}
+/*Header and Main Menu*/
+#header
+{
+	margin: 0px;
+	padding: 1px 0px 0px;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 920px;
+	height: 100px;
+	background: transparent url('/web/20110717073122/http://kde.in/wp-content/themes/KDE4WP/images/kde-in-logo.png') no-repeat top right
+}
+/*[clearfix]*/.main_menu
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	/*[disabled]position:relative;*/
+	/*+placement:shift 0px 40px;*/
+	position: relative;
+	left: 0px;
+	top: 40px;
+}
+.main_menu LI
+{
+	float: left;
+	padding: 5px 10px;
+	margin: 0px 10px;
+	list-style: none;
+}
+.main_menu LI A
+{
+	text-decoration: none;
+}
+.main_menu LI A:hover
+{
+	text-decoration: underline;
+}
+/*Main part of the page, includes content and sidebar*/
+#main
+{
+	border-top: 0px solid #000000;
+	border-bottom: 0px solid #000000;
+	margin: 20px 0px;
+	padding-right: 15px;
+	width: 865px;
+}
+#main .content
+{
+	width: 620px;
+	/*[disabled]border-right:1px solid rgba(255, 255, 255, 0.8);*/
+}
+#sidebar
+{
+	width: 225px;
+	float: right;
+	font-size: 10pt;
+}
+#sidebar .widgets
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+#sidebar .widgets P
+{
+	margin: 0px 0px 0px 0.5em;
+	padding: 0px;
+}
+#sidebar .widgets H1, #sidebar .widgets H2, #sidebar .widgets H3, #sidebar .widgets H4, #sidebar .widgets H5, #sidebar .widgets H6
+{
+	margin: 0.5em 0;
+	font-size: 14pt;
+}
+#sidebar .widget
+{
+	margin: 0px 0px 1em;
+	padding: 10px 15px 20px;
+	background-color: rgba(255, 255, 255, 0.5);
+	=background-color: #FFFFFF;
+	border: 1px solid #B1C4D7;
+	/*+border-radius:4px;*/
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px 4px 4px 4px;
+}
+/*Footer of the page with additional widgets*/
+#footer
+{
+	background-color: rgba(0, 0, 0, 0.1);
+	background-color: #DAE2E5;
+	border-top: 8px solid #07498B;
+	text-align: center;
+}
+#footer .widgets
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#footer .widget
+{
+	float: left;
+	width: 230px;
+	margin: 0px 10px;
+	padding: 10px 15px;
+}
+#footer .widgets H1, #footer .widgets H2, #footer .widgets H3, #footer .widgets H4, #footer .widgets H5, #footer .widgets H6
+{
+	margin: 0.5em 0;
+	font-size: 14pt;
+}
+#footer .widgets P
+{
+	margin: 0px 0px 0px 0.5em;
+	padding: 0px;
+}
+#footer #copyright
+{
+	margin: 25px 0px 0px;
+	padding: 3px 10px;
+	background-color: #EEF8FD;
+	/*+border-radius:4px;*/
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px 4px 4px 4px;
+	color: #41A0FF;
+	font-size: 10pt;
+}
+
+#footer #copyright A
+{
+	color: #41A0FF;
+}
+/*Typography*/
+HTML
+{
+	font-size: 12pt;
+}
+BODY
+{
+	font-size: 0.9em;
+	color: #222;
+	background: #EEF8FD url('../img/bg.jpg') no-repeat scroll top center;
+	font-family: "Droid Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+H1, H2, H3, H4, H5, H6
+{
+	font-weight: normal;
+	color: #048;
+	/*[disabled]font-family:Neuton, "Droid Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;*/
+	/*+text-shadow:0 1px 1px #FFFFFF;*/
+	-moz-text-shadow: 0 1px 1px #FFFFFF;
+	-webkit-text-shadow: 0 1px 1px #FFFFFF;
+	-o-text-shadow: 0 1px 1px #FFFFFF;
+	text-shadow: 0 1px 1px #FFFFFF;
+	text-align: left;
+}
+H1, H2
+{
+	font-size: 2em;
+	margin-bottom: 0.75em;
+	margin-left: 10px;
+}
+H3
+{
+	font-size: 1.5em;
+	line-height: 1;
+	margin-bottom: 1em;
+	margin-left: 25px;
+}
+H4
+{
+	font-size: 1.2em;
+	line-height: 1.25;
+	margin-bottom: 1.25em;
+	margin-left: 25px;
+}
+H5
+{
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 1.5em;
+	margin-left: 25px;
+}
+H6
+{
+	font-size: 1em;
+	font-weight: bold;
+	margin-left: 25px;
+}
+H1 IMG, H2 IMG, H3 IMG, H4 IMG, H5 IMG, H6 IMG
+{
+	margin: 0;
+}
+P
+{
+	margin: 0 25px 1.5em;
+}
+IMG
+{
+	margin: 5px;
+}
+.left
+{
+	float: left !important;
+	margin-right: 15px;
+}
+P .left
+{
+	margin: 1.5em 1.5em 1.5em 0;
+	padding: 0;
+}
+.right
+{
+	float: right !important;
+	margin-left: 15px;
+}
+P .right
+{
+	margin: 1.5em 0 1.5em 1.5em;
+	padding: 0;
+}
+A:focus, A:hover
+{
+	color: #09F;
+	text-decoration: underline;
+}
+A
+{
+	color: #06C;
+	text-decoration: none;
+}
+BLOCKQUOTE
+{
+	margin: 1.5em;
+	color: #666;
+	font-style: italic;
+}
+B, STRONG, DFN
+{
+	font-weight: bold;
+	font-family: "Droid Sans Bold", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+EM, DFN
+{
+	font-style: italic;
+}
+SUP, SUB
+{
+	line-height: 0;
+}
+ABBR, ACRONYM
+{
+	border-bottom: 1px dotted #666;
+}
+ADDRESS
+{
+	margin: 0 0 1.5em;
+	font-style: italic;
+}
+DEL
+{
+	color: #666;
+}
+PRE
+{
+	margin: 1.5em 0;
+	white-space: pre;
+}
+PRE, CODE, TT
+{
+	font: 1em "andale mono", "lucida console", monospace;
+	line-height: 1.5;
+}
+UL LI, OL LI
+{
+	margin-left: 2em;
+}
+UL, OL
+{
+	margin: 0 1.5em 1.5em 0;
+	padding-left: 1.5em;
+}
+UL
+{
+	list-style-type: disc;
+}
+OL
+{
+	list-style-type: decimal;
+}
+DL
+{
+	margin: 0 0 1.5em;
+}
+DL DT
+{
+	font-weight: bold;
+}
+DD
+{
+	margin-left: 1.5em;
+	margin: 0px;
+}
+HR
+{
+	width: 95%;
+	height: 1px;
+	border: 0px solid #000000;
+	border-top: 1px solid #B1C4D7;
+	background-color: #FFFFFF;
+	margin: 30px 0px;
+}
+/*Tables*/
+TABLE
+{
+	margin-bottom: 1.4em;
+	width: 100%;
+}
+TH
+{
+	font-weight: bold;
+	background-color: #004488;
+	color: #FFFFFF;
+	/*+border-radius:0px 0px 4px 4px;*/
+	-moz-border-radius: 0px 0px 4px 4px;
+	-webkit-border-radius: 0px 0px 4px 4px;
+	-khtml-border-radius: 0px 0px 4px 4px;
+	border-radius: 0px 0px 4px 4px;
+}
+THEAD TH
+{
+}
+TH, TD, CAPTION
+{
+	padding: 8px 12px;
+	border-left: 1px solid #FFFFFF;
+}
+TR:nth-child(2n+1) TD
+{
+	background-color: #EBF2F9;
+}
+TD
+{
+	/*[disabled]border-bottom:1px dotted #B1C4D7;*/
+	/*+border-radius:0px 0px 4px 4px;*/
+	-moz-border-radius: 0px 0px 4px 4px;
+	-webkit-border-radius: 0px 0px 4px 4px;
+	-khtml-border-radius: 0px 0px 4px 4px;
+	border-radius: 0px 0px 4px 4px;
+}
+TFOOT
+{
+	font-style: italic;
+}
+CAPTION
+{
+	background: #EEE;
+}
+/*Forms*/
+LABEL
+{
+	font-weight: normal;
+	font-family: inherit;
+}
+FIELDSET
+{
+	padding: 1.4em 1.4em 0.2em;
+	margin: 0 0 1.5em;
+	border: 1px solid #ACD;
+	width: 550px;
+	background-color: #FFF;
+	/*+border-radius:4px;*/
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px 4px 4px 4px;
+}
+LEGEND
+{
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #048;
+	/*+text-shadow:0 1px 1px #FFFFFF;*/
+	-moz-text-shadow: 0 1px 1px #FFFFFF;
+	-webkit-text-shadow: 0 1px 1px #FFFFFF;
+	-o-text-shadow: 0 1px 1px #FFFFFF;
+	text-shadow: 0 1px 1px #FFFFFF;
+	margin: 0px;
+	padding: 0px 10px;
+}
+INPUT[type=text], INPUT[type=password], INPUT.text, INPUT.title, TEXTAREA
+{
+	background-color: #FFF;
+	border: 1px solid #BBB;
+	padding: 2px;
+}
+INPUT[type=text]:focus, INPUT[type=password]:focus, INPUT.text:focus, INPUT.title:focus, TEXTAREA:focus
+{
+	border-color: #666;
+}
+SELECT
+{
+	background-color: #FFF;
+	border-width: 1px;
+	border-style: solid;
+}
+INPUT[type=text], INPUT[type=password], INPUT.text, INPUT.title, TEXTAREA, SELECT
+{
+	font-family: inherit;
+	font-size: 1em;
+	margin: 0.5em 0;
+	background-color: #FFFFFF;
+	border: 1px solid #ACD;
+	/*+border-radius:4px;*/
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px 4px 4px 4px;
+}
+INPUT[type="button"], INPUT[type="submit"], INPUT[type="reset"], .button
+{
+	margin: 2px 5px !important;
+	text-align: center;
+	padding: 6px 12px 5px !important;
+	color: #FFFFFF;
+	background: #37B;
+	/*+box-shadow:0 1px 0px #004488;*/
+	-moz-box-shadow: 0 1px 0px #004488;
+	-webkit-box-shadow: 0 1px 0px #004488;
+	-o-box-shadow: 0 1px 0px #004488;
+	box-shadow: 0 1px 0px #004488;
+	/*+border-radius:4px;*/
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px 4px 4px 4px;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+	font-family: "Droid Sans", inherit;
+	text-shadow: 0 -1px 1px #002B55;
+	border: none !important;
+	cursor: pointer;
+}
+INPUT[type="button"]:hover, INPUT[type="submit"]:hover, INPUT[type="reset"]:hover, INPUT[type="file"]:hover
+{
+	background: #48C;
+}
+/*Clearer*/
+.clear
+{
+	clear: both;
+}
+.skip-link, .screen-reader-text
+{
+	display: none;
+}
+/*Slider Style*/
+.lof-container
+{
+	/*+placement:shift -40px -30px;*/
+	position: relative;
+	left: -40px;
+	top: -30px;
+}
+/*hacks*/
+.entry-utility
+{
+	margin-left: -1em;
+	margin-bottom: 3em;
+}
+.entry-content
+{
+	margin-left: -1em;
+}
+#respond
+{
+	margin-left: -0.5em;
+}
+.nocomments
+{
+	display: none;
+}
+.edit-link
+{
+	margin-right: 2em;
+	float: right;
+}
+.centered
+{
+    text-align: center;
+}

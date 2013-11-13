@@ -1,0 +1,92 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 8:42:39 Aug 19, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:03:54 Nov 11, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+div.flickr-gallery {
+	margin-top: 1em;
+}
+
+div.flickr-photos {
+
+}
+
+div.flickr-thumb {
+	float: left;
+	border: 1px solid #dddddd;
+	padding: 2px;
+	margin: 3px;
+	width: 85px;
+	height: 85px;
+}
+
+div.flickr-thumb img {
+	width: 75px;
+	height: 75px;
+}
+
+div.fg-clear {
+	clear: both;
+}
+
+div.flickr-set-meta {
+	margin-left: 80px;
+}
+
+div.flickr-collection-meta {
+	margin-left: 191px;
+}
+
+div.flickr-set-thumb, div.flickr-collection-thumb {
+	float: left;
+	border: 1px solid #dddddd;
+	padding: 2px;
+	margin: 3px;
+}
+
+div.flickr-set, div.flickr-collection{
+	margin-bottom: .5em;
+}
+
+div.flickr-gallery.image.none {
+	padding: 1em 0px;
+}
+
+div.flickr-gallery.image.left, div.flickr-gallery.video.left {
+	padding: 0px .5em .5em 0px;
+	float: left;
+}
+
+div.flickr-gallery.image.right, div.flickr-gallery.video.right {
+	padding: 0px 0px .5em .5em;
+	float: right;
+}
+
+div.flickr-set-display {
+	display: none;
+	clear: both;
+}
+
+.ui-tabs .fg-credit {
+	margin-top: 4px;
+}
+
+div.flickr-gallery ul.ui-tabs-nav li {
+	list-style-type: none;
+}
+
+#content ul.ui-tabs-nav  {
+	margin-bottom: 0px;
+}
+
+div.ui-widget {
+	font-size: 1em;
+}
