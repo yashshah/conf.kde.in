@@ -29,6 +29,20 @@
         <script type="text/javascript">
           var get_sizes = null;
         </script>
+        <script type="text/javascript">
+            (function() {
+                var link_element = document.createElement("link"),
+                    s = document.getElementsByTagName("script")[0];
+                if (window.location.protocol !== "http:" && window.location.protocol !== "https:") {
+                    link_element.href = "http:";
+                }
+                link_element.href += "//fonts.googleapis.com/css?family=Permanent+Marker:400";
+                link_element.rel = "stylesheet";
+                link_element.type = "text/css";
+                s.parentNode.insertBefore(link_element, s);
+            })();
+        </script>
+
       </head>
     
     
@@ -42,46 +56,33 @@
                 <div class="main_menu">
                   <ul id="menu-conference-menu" class="menu">
                     <li id="menu-item-585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-585">
-                      <a href="index.html">
-                        Home
-                      </a>
-                    </li>
-                    <li id="menu-item-95" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-95">
-                      <a href="#">
-                        Conference
-                      </a>
-                    </li>
-                    <li id="menu-item-96" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-96">
-                      <a href="venue.html">
-                        Venue
-                      </a>
-                    </li>
-                    <li id="menu-item-409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409">
-                      <a href="#">
-                        Keynotes
-                      </a>
-                    </li>
-                    <li id="menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-382">
-                      <a href="#">
-                        Photos
-                      </a>
-                    </li>
-                    <li id="menu-item-579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579">
-                      <a href="schedule.html">
-                        Schedule
-                      </a>
-                    </li>
-                    <li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529">
-                      <a href="#">
-                        FAQs
-                      </a>
-                    </li>
-                    <li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529">
-                  <a href="sponsor.html">
-                    Sponsors
+                  <a href="index.html">
+                    <div class="title2"><h4>Home</h4></div>
                   </a>
-                    </li>
-                  </ul>
+                </li>
+                <li id="menu-item-96" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-96">
+                  <a href="venue.html">
+                   <div class="title2"><h4>Venue</h4></div>
+                  </a>
+                </li>
+                
+                <li id="menu-item-579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579">
+                  <a href="schedule.html">
+                     <div class="title2"><h4>Schedule</h4></div>
+                  </a>
+                </li>
+                <li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529">
+                  <a href="faq.html">
+                   <div class="title2"><h4>FAQs</h4></div>
+                  
+                  </a>
+                </li>
+                <li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529">
+                  <a href="sponsor.html">
+                     <div class="title2"><h4>Sponsors</h4></div>
+                     </a>
+                </li>
+              </ul>
                 </div>
                 <div class="clear">
                 </div>
@@ -153,7 +154,7 @@
     
   <div id="post-108" class="post-108 page type-page status-publish hentry">
   
-                                                            <h1 class="entry-title">Sponsors</h1>
+                                                            <div class="title1"><h1 class="entry-title">Sponsors</h1></div>
                                           
                                           <div class="entry-content">
                                                  

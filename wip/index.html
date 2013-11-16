@@ -29,6 +29,19 @@
     <script type="text/javascript">
       var get_sizes = null;
     </script>
+    <script type="text/javascript">
+            (function() {
+                var link_element = document.createElement("link"),
+                    s = document.getElementsByTagName("script")[0];
+                if (window.location.protocol !== "http:" && window.location.protocol !== "https:") {
+                    link_element.href = "http:";
+                }
+                link_element.href += "//fonts.googleapis.com/css?family=Permanent+Marker:400";
+                link_element.rel = "stylesheet";
+                link_element.type = "text/css";
+                s.parentNode.insertBefore(link_element, s);
+            })();
+        </script>
   </head>
   <body class="page page-id-30 page-parent page-template page-template-conf-php">
     <div id="wrapper">
@@ -40,43 +53,30 @@
               <ul id="menu-conference-menu" class="menu">
                 <li id="menu-item-585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-585">
                   <a href="">
-                    Home
-                  </a>
-                </li>
-                <li id="menu-item-95" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-95">
-                  <a href="#">
-                    Conference
+                    <div class="title2"><h4>Home</h4></div>
                   </a>
                 </li>
                 <li id="menu-item-96" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-96">
                   <a href="venue.html">
-                    Venue
+                   <div class="title2"><h4>Venue</h4></div>
                   </a>
                 </li>
-                <li id="menu-item-409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409">
-                  <a href="#">
-                    Keynotes
-                  </a>
-                </li>
-                <li id="menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-382">
-                  <a href="#">
-                    Photos
-                  </a>
-                </li>
+                
                 <li id="menu-item-579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579">
                   <a href="schedule.html">
-                    Schedule
+                     <div class="title2"><h4>Schedule</h4></div>
                   </a>
                 </li>
                 <li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529">
                   <a href="faq.html">
-                    FAQs
+                   <div class="title2"><h4>FAQs</h4></div>
+                  
                   </a>
                 </li>
                 <li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529">
                   <a href="sponsor.html">
-                    Sponsors
-                  </a>
+                     <div class="title2"><h4>Sponsors</h4></div>
+                     </a>
                 </li>
               </ul>
             </div>
@@ -196,16 +196,30 @@
        <!-- sidebar-->
        <div class="content">
          <div id="post-30" class="post-30 page type-page status-publish hentry">
-           <h1 class="entry-title">
-             conf.kde.in 2014
+         	<div class="title1">
+           <h1>
+           
+             <center>conf.kde.in 2014 </center>
+             
            </h1>
+           <h1>
+           <span>
+           <center>
+           India's Largest Conference
+           </center>
+           </span>
+           </h1>
+           
+           </div>
            <div class="entry-content">
+           <div class="title2">
              <h4>
-               21 &#8211; 24 February
+               21 &#8211; 23 February, DA-IICT
              </h4>
+             </div>
              <div>
                <p>
-                 conf.kde.in is a platform for Qt and KDE contributors and enthusiasts to meet up, share their knowledge, contribute, learn, play, and most importantly have fun. It is the perfect arena for collaboration and exchange of ideas, skills, thoughts among like minded people who are passionate about open source. It aims at furthering the goals and visions of the KDE community and open source among many more Indians and to motivate them to contribute to this noble deed. Through this event KDE - India aims at educating more students about open source software contribution and also strives to teach them necessary skills which shall help not only in facilitating their contribution to open source but shall also prove to be a useful asset to their knowledge. The event is also a place for existing as well as budding and novice KDE members to meet, collaborate and work on new ideas as well as projects and help in creating something which can be used by billions around the world. It is a platform to promote open source among students, among more Indians and also to get them to know about various programs such as GSoC, Season of KDE, Google Code-In which promote the participation of youth in open source and to provide them with the necessary skills
+                 conf.kde.in is a platform for Qt and KDE contributors and enthusiasts to meet up, share their knowledge, contribute, learn, play, and most importantly have fun. It is the perfect arena for collaboration and exchange of ideas, skills, thoughts among like minded people who are passionate about open source. 
                                 </p>
                                 
              </div>

@@ -21,6 +21,28 @@ Tags: blue, white, two-columns, fixed-width
 
 Fonts preload*/
 /*+clearfix {*/
+
+
+
+.title1 h1  {
+
+	 
+	 line-height: 73px;
+	 margin-bottom: 25px;
+	 font-family: "Permanent Marker";
+	 font-style: normal;
+	 font-weight: 400;
+	 font-size: 50px
+
+}
+.title2 h4 {
+	font-family: "Permanent Marker";
+	 font-weight: 400;
+	 font-style: normal;
+	 line-height: 30px;
+	 font-size: 22px;
+
+}
 .main_menu:after
 {
 	content: ".";

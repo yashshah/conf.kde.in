@@ -30,6 +30,20 @@
       <script type="text/javascript">
 	var get_sizes = null;
       </script>
+      <script type="text/javascript">
+            (function() {
+                var link_element = document.createElement("link"),
+                    s = document.getElementsByTagName("script")[0];
+                if (window.location.protocol !== "http:" && window.location.protocol !== "https:") {
+                    link_element.href = "http:";
+                }
+                link_element.href += "//fonts.googleapis.com/css?family=Permanent+Marker:400";
+                link_element.rel = "stylesheet";
+                link_element.type = "text/css";
+                s.parentNode.insertBefore(link_element, s);
+            })();
+        </script>
+
     </head>
   
   
@@ -43,46 +57,33 @@
 	      <div class="main_menu">
 		<ul id="menu-conference-menu" class="menu">
 		  <li id="menu-item-585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-585">
-		    <a href="index.html">
-		      Home
-		    </a>
-		  </li>
-		  <li id="menu-item-95" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-95">
-		    <a href="#">
-		      Conference
-		    </a>
-		  </li>
-		  <li id="menu-item-96" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-96">
-		    <a href="venue.html">
-		      Venue
-		    </a>
-		  </li>
-		  <li id="menu-item-409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409">
-		    <a href="#">
-		      Keynotes
-		    </a>
-		  </li>
-		  <li id="menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-382">
-		    <a href="#">
-		      Photos
-		    </a>
-		  </li>
-		  <li id="menu-item-579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579">
-		    <a href="schedule.html">
-		      Schedule
-		    </a>
-		  </li>
-		  <li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529">
-		    <a href="faq.html">
-		      FAQs
-		    </a>
-		  </li>
-		  <li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529">
-                  <a href="sponsor.html">
-                    Sponsors
+                  <a href="index.html">
+                    <div class="title2"><h4>Home</h4></div>
                   </a>
                 </li>
-		</ul>
+                <li id="menu-item-96" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-96">
+                  <a href="venue.html">
+                   <div class="title2"><h4>Venue</h4></div>
+                  </a>
+                </li>
+                
+                <li id="menu-item-579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579">
+                  <a href="schedule.html">
+                     <div class="title2"><h4>Schedule</h4></div>
+                  </a>
+                </li>
+                <li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529">
+                  <a href="faq.html">
+                   <div class="title2"><h4>FAQs</h4></div>
+                  
+                  </a>
+                </li>
+                <li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529">
+                  <a href="sponsor.html">
+                     <div class="title2"><h4>Sponsors</h4></div>
+                     </a>
+                </li>
+              </ul>
 	      </div>
 	      <div class="clear">
 	      </div>
@@ -153,7 +154,7 @@
   
   
 			<div id="post-97" class="post-97 page type-page status-publish hentry">
-			  <h1 class="entry-title">Venue</h1>
+			  <div class="title1"><h1 class="entry-title">Venue</h1></div>
 					  
 					  <div class="entry-content">
 						  <p><!-- DONT SWITCH TO VISUAL VIEW, AND WHEN I SAY DON'T, IT MEANS *DON'T* -->
@@ -166,14 +167,14 @@ Gandhinagar 382007,<br /> Gujarat, India </p>
   <div style="margin-left:25px;padding:8px; border: 1px solid #B1C4D7; -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 4px 4px 4px 4px; width: 425px; height: auto; background-color: #fff;"> <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?q=DA-IICT+google+maps&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=23.188464,72.628422&amp;spn=0.006295,0.006295&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.in/maps?q=DA-IICT+google+maps&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=23.188464,72.628422&amp;spn=0.006295,0.006295&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small> </div>
   </p>
   <p> <br />
-  <h3>How to Reach Here</h3>
-  <h4>From Ahmedabad Airport</h4>
+  <div class="title2"><h4>How to Reach Here</h4></div>
+  <div class="title2"><h4>From Ahmedabad Airport</h4></div>
   <p>Ahmedabad airport has a good taxi service where cabs can be hired to take you to DAIICT.</p>
-  <h4>From Ahmedabad Railway Station</h4>
+  <div class="title2"><h4>From Ahmedabad Railway Station</h4></div>
   <p>Government buses between Ahmedabad and Gandhinagar, run on a regular basis.The stop at Gandhinagar where you need to disembark is Gh-0 or Ch-0, both of which are less than 1 Km from the DAIICT campus. From here, autos can be easily hired to the campus. 
 Taxi is another option, Taxi Stand is located just in front of Railway Station. The taxi services consist of mostly Ambassador Cabs and taxis can be hired for a one-way trip to DAIICT for about Rs. 200.
 </p>
-  <h4>From Gandhinagar Bus Terminal</h4>
+  <div class="title2"><h4>From Gandhinagar Bus Terminal</h4></div>
   <p>You can take a government bus from any city in Gujarat to Gandhinagar, which would take you to Pathikashram Bus station. An auto-rickshaw would charge you about Rs. 50 to get you to DA-IICT from the bus station.
 </p>
   		    		    													  </div><!-- .entry-content -->

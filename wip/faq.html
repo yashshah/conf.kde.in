@@ -30,6 +30,20 @@
         <script type="text/javascript">
           var get_sizes = null;
         </script>
+        <script type="text/javascript">
+            (function() {
+                var link_element = document.createElement("link"),
+                    s = document.getElementsByTagName("script")[0];
+                if (window.location.protocol !== "http:" && window.location.protocol !== "https:") {
+                    link_element.href = "http:";
+                }
+                link_element.href += "//fonts.googleapis.com/css?family=Permanent+Marker:400";
+                link_element.rel = "stylesheet";
+                link_element.type = "text/css";
+                s.parentNode.insertBefore(link_element, s);
+            })();
+        </script>
+
       </head>
     
     
@@ -43,46 +57,33 @@
                 <div class="main_menu">
                   <ul id="menu-conference-menu" class="menu">
                     <li id="menu-item-585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-585">
-                      <a href="index.html">
-                        Home
-                      </a>
-                    </li>
-                    <li id="menu-item-95" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-95">
-                      <a href="#">
-                        Conference
-                      </a>
-                    </li>
-                    <li id="menu-item-96" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-96">
-                      <a href="venue.html">
-                        Venue
-                      </a>
-                    </li>
-                    <li id="menu-item-409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409">
-                      <a href="#">
-                        Keynotes
-                      </a>
-                    </li>
-                    <li id="menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-382">
-                      <a href="#">
-                        Photos
-                      </a>
-                    </li>
-                    <li id="menu-item-579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579">
-                      <a href="schedule.html">
-                        Schedule
-                      </a>
-                    </li>
-                    <li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529">
-                      <a href="#">
-                        FAQs
-                      </a>
-                    </li>
-                    <li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529">
-                  <a href="sponsor.html">
-                    Sponsors
+                  <a href="index.html">
+                    <div class="title2"><h4>Home</h4></div>
                   </a>
                 </li>
-                  </ul>
+                <li id="menu-item-96" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-96">
+                  <a href="venue.html">
+                   <div class="title2"><h4>Venue</h4></div>
+                  </a>
+                </li>
+                
+                <li id="menu-item-579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579">
+                  <a href="schedule.html">
+                     <div class="title2"><h4>Schedule</h4></div>
+                  </a>
+                </li>
+                <li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529">
+                  <a href="faq.html">
+                   <div class="title2"><h4>FAQs</h4></div>
+                  
+                  </a>
+                </li>
+                <li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529">
+                  <a href="sponsor.html">
+                     <div class="title2"><h4>Sponsors</h4></div>
+                     </a>
+                </li>
+              </ul>
                 </div>
                 <div class="clear">
                 </div>
@@ -154,10 +155,10 @@
     
   <div id="post-108" class="post-108 page type-page status-publish hentry">
   
-                                                                                          <h1 class="entry-title">FAQs</h1>
+                                                                                          <div class="title1"> <h1 class="entry-title">FAQs</h1> </div>
                                           
                                           <div class="entry-content">
-                                                  <h3 id="top">Contents</h3>
+                                                 <div class="title2"> <h4 id="top">Contents</h4></div>
   <ol>
   <li><a href="#event">Event</a></li>
   <li><a href="#registration">Registration</a></li>
@@ -165,7 +166,7 @@
   <li><a href="#sponsor">Sponsors</a></li>
   <li><a href="#misc">Miscellaneous</a></li>
   </ol>
-  <h3 id="event">Event</h3>
+  <div class="title2"><h4 id="event">Event</h4></div>
   <p><strong>What is KDE?<br />
   </strong>The KDE® Community is an international technology team dedicated towards creating a free and user-friendly computing experience. It is one of the largest open source communities in the world and has a myriad of applications and projects associated with it. For more details, see <span style="color: #000000;"><a href="http://www.kde.org/community/whatiskde/">http://www.kde.org/community/whatiskde/</a></span></p>
   <p><strong>What is Qt?<br />
@@ -191,7 +192,7 @@
   </strong>Attend the event and make it successful. Promote <strong>conf.kde.in</strong>. Volunteer at <strong>conf.kde.in</strong>. Find sponsors for <strong>conf.kde.in</strong>.</p>
   <p><strong>How can I promote this event?<br />
   </strong>Blog about <strong>conf.kde.in</strong>. <a href="http://identi.ca/kdeindia" target="_self">Dent</a> about <strong>conf.kde.in</strong>. <a href="http://twitter.com/kdeindia" target="_blank">Tweet</a> about <strong>conf.kde.in</strong>. Tell your friends, classmates, college-mates and colleagues about <strong>conf.kde.in</strong>.<br /></p>
-  <h3 id="event">Past Events</h3>
+  <div class="title2"><h4 id="event">Past Events</h4></div>
   <p><strong> </strong><strong>Conf.kde.in 2011</strong><br/>
   Conf.kde.in 2011 was the first KDE/Qt conference in India. The 5 day event was held in March 2011 at the R.V. College of Engineering, Bangalore. The event showcased Qt & KDE technologies and introduced participants to contributing to open source projects. The first three days had talks, tutorials and interactive sessions. Prominent members of the community introduced participants to various aspects of development. It had around 300 participants and was a huge phenomenon in terms of the people that it introduced to open source and to KDE. Conf.kde.in 2014 plans to extend this success further and to spread the vision among many more.
 </p>
@@ -201,7 +202,7 @@ KDE MEETUP organised in DA-IICT on 23rd-24th of February, 2013 was the largest K
   
 
   <p style="text-align: right;"><a href="#top">↑ Go to top</a></p>
-  <h3 id="registration">Registration</h3>
+  <div class="title2"><h4 id="registration">Registration</h4></div>
   <p><strong> </strong><strong>Where can I register?</strong><br />
   To register, goto <a href="#">http://kde.in/conf/register/</a></p>
   <p><a href="#"></a><strong>What are the registration fees?<br />
@@ -213,7 +214,7 @@ KDE MEETUP organised in DA-IICT on 23rd-24th of February, 2013 was the largest K
   <p><strong>Can I get a concession on the registration fees?<br />
   </strong></p>
   <p style="text-align: right;"><a href="#top">↑ Go to top</a></p>
-  <h3 id="delegate">Delegates</h3>
+  <div class="title2"><h4 id="delegate">Delegates</h4></div>
   <p><strong>Do I need to carry any particular documents?<br />
   </strong>Yes, please bring a copy of email that you receive when you registered. If you are a student and you want to avail the student concession then you should bring your college ID card.</p>
   <p><strong>I forgot to bring the copy of the registration confirmation email. What should I do?<br />
@@ -248,7 +249,7 @@ KDE MEETUP organised in DA-IICT on 23rd-24th of February, 2013 was the largest K
   <p><strong>I have made some proprietary Qt/KDE applications. Can I demo it at the event?<br />
   </strong>No! As that would be unfair to our valuable sponsors and would lead to ambush marketing. Please consider sponsoring the event.</p>
   <p style="text-align: right;"><a href="#top">↑ Go to top</a></p>
-  <h3 id="sponsor">Sponsors</h3>
+  <div class="title2"><h4 id="sponsor">Sponsors</h4></div>
   <p><strong>My company would like to sponsor. How should I proceed?<br />
   </strong>Please visit the <a href="#">Sponsors</a> page for more information.</p>
   <p><strong>What are my benefits as a sponsor company?<br />
@@ -256,7 +257,7 @@ KDE MEETUP organised in DA-IICT on 23rd-24th of February, 2013 was the largest K
   <p><strong>I am a sponsor. Will I get free entry passes?<br />
   </strong>Yes. We will allot you a few free entry passes.</p>
   <p style="text-align: right;"><a href="#top">↑ Go to top</a></p>
-  <h3 id="misc">Miscellaneous</h3>
+  <div class="title2"><h4 id="misc">Miscellaneous</h4></div>
   <p><strong>My question is not listed above? Where can I ask?<br />
   </strong>You can send in your queries using <a href="contact">http://kde.in/contact</a>. You can also reach our mailing list at <a href="mailto:kde-events-in@kde.org"><em>kde-events-in @ kde.org</em></a></p>
   <p><strong>Can I not reach you by mail?<br />
