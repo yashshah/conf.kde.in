@@ -1,59 +1,30 @@
 
 
 
-
-
-/*
-     FILE ARCHIVED ON 7:31:22 Jul 17, 2011 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 11:03:55 Nov 11, 2013.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-Theme Name: KDE4WP
-Theme URI: http://kde.org/
-Description: WordPress theme done after KDE WWW style.
-Author: KDE WWW team
-Version: 1.1
-Tags: blue, white, two-columns, fixed-width
-
-Fonts preload*/
-/*+clearfix {*/
-
-
-
 .title1 h1  {
 
-	 
-	 /*line-height: 73px;
-	 margin-bottom: 25px;
-	 font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-	 font-style: normal;
-	 font-weight: 200;
-	 font-size: 40px;*/
-	 line-height: 1.2;
-	 font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-	 
-	 text-transform: uppercase;
-  	 word-spacing: 0.3125em;
-  	 margin-bottom: 1.625em;
-  	 font-weight: 800;
-  	
-      	 font-size: 2.375em;
+	line-height: 1.2;
+  	text-transform: uppercase;
+    	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
 
+  	word-spacing: 0.3125em;
+  	margin-bottom: 0.3125em;
+  	font-weight: 800;
+	 
+  	margin-bottom: 1.625em;
 
 }
 .title2 h4 {
-	 line-height: 1.2;
-	 font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-	text-transform: uppercase;
+	line-height: 1.2;
+  	text-transform: uppercase;
+    	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+
   	word-spacing: 0.3125em;
-  	margin-bottom: 1.625em;
+  	margin-bottom: 0.3125em;
   	font-weight: 700;
-      	
-	 font-size: 22px;
+	 
+  	margin-bottom: 1.625em;
+	font-size: 22px;
 
 }
 .main_menu:after
