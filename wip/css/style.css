@@ -27,19 +27,32 @@ Fonts preload*/
 .title1 h1  {
 
 	 
-	 line-height: 73px;
+	 /*line-height: 73px;
 	 margin-bottom: 25px;
-	 font-family: "Permanent Marker";
+	 font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
 	 font-style: normal;
-	 font-weight: 400;
-	 font-size: 50px
+	 font-weight: 200;
+	 font-size: 40px;*/
+	 line-height: 1.2;
+	 font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+	 
+	 text-transform: uppercase;
+  	 word-spacing: 0.3125em;
+  	 margin-bottom: 1.625em;
+  	 font-weight: 800;
+  	
+      	 font-size: 2.375em;
+
 
 }
 .title2 h4 {
-	font-family: "Permanent Marker";
-	 font-weight: 400;
-	 font-style: normal;
-	 line-height: 30px;
+	 line-height: 1.2;
+	 font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+	text-transform: uppercase;
+  	word-spacing: 0.3125em;
+  	margin-bottom: 1.625em;
+  	font-weight: 700;
+      	
 	 font-size: 22px;
 
 }
