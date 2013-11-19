@@ -126,9 +126,7 @@ A IMG
 }
 #page
 {
-	width: 920px;
-	max-width: 920px;
-	min-width: 920px;
+	width: 720px;
 	margin: 40px auto;
 	padding: 0px;
 	background-color: rgba(255, 255, 255, 0.8);
@@ -147,7 +145,7 @@ A IMG
 }
 #header, #main, #footer
 {
-	width: 840px;
+	width: auto;
 	padding: 10px 40px;
 }
 /*Header and Main Menu*/
