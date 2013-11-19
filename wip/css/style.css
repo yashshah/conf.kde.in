@@ -5,20 +5,18 @@
 
 	line-height: 1.2;
   	text-transform: uppercase;
-    	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-
+    	font-family: 'Open Sans', sans-serif;
   	word-spacing: 0.3125em;
   	margin-bottom: 0.3125em;
-  	font-weight: 800;
+  	font-weight: 700;
 	 
-  	margin-bottom: 1.625em;
+  	margin-bottom: 1.525em;
 
 }
 .title2 h4 {
 	line-height: 1.2;
   	text-transform: uppercase;
-    	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-
+	font-family: 'Open Sans', sans-serif;
   	word-spacing: 0.3125em;
   	margin-bottom: 0.3125em;
   	font-weight: 700;
