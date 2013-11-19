@@ -4,7 +4,7 @@
 .title1 h1  {
 
 	line-height: 1.2;
-  	text-transform: uppercase;
+
     	font-family: 'Open Sans', sans-serif;
   	word-spacing: 0.3125em;
   	margin-bottom: 0.3125em;
@@ -15,7 +15,7 @@
 }
 .title2 h4 {
 	line-height: 1.2;
-  	text-transform: uppercase;
+  	
 	font-family: 'Open Sans', sans-serif;
   	word-spacing: 0.3125em;
   	margin-bottom: 0.3125em;
