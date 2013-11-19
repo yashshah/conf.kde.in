@@ -5,22 +5,21 @@
 
 	line-height: 1.2;
 
-    	font-family: 'Open Sans', sans-serif;
+    	font-family: open sans;
   	word-spacing: 0.3125em;
   	margin-bottom: 0.3125em;
   	font-weight: 700;
-	 
+	
   	margin-bottom: 1.525em;
 
 }
 .title2 h4 {
 	line-height: 1.2;
   	
-	font-family: 'Open Sans', sans-serif;
+	font-family: open sans;
   	word-spacing: 0.3125em;
   	margin-bottom: 0.3125em;
   	font-weight: 700;
-	 
   	margin-bottom: 1.625em;
 	font-size: 22px;
 
@@ -46,7 +45,7 @@
 	-height: 1px;
 }
 /*+}*/
-@font-face
+/*@font-face
 {
 	font-family: "Droid Sans";
 	font-style: normal;
@@ -59,7 +58,7 @@
 	font-style: normal;
 	font-weight: normal;
 	src: local('Droid Sans'), local('DroidSans'), url('/web/20110717073122/http://themes.googleusercontent.com/font?kit=rS9BT6-asrfjpkcV3DXf__esZW2xOQ-xsNqO47m55DA') format('truetype');
-}
+}*/
 /*HTML reset*/
 HTML
 {
@@ -75,7 +74,7 @@ BODY, DIV, SPAN, OBJECT, IFRAME, H1, H2, H3, H4, H5, H6, P, BLOCKQUOTE, PRE, A, 
 	font-weight: inherit;
 	font-style: inherit;
 	font-size: 100%;
-	font-family: inherit;
+	font-family:open sans; 
 	vertical-align: baseline;
 }
 ARTICLE, ASIDE, DIALOG, FIGURE, FOOTER, HEADER, HGROUP, NAV, SECTION
@@ -143,9 +142,10 @@ A IMG
 	-o-box-shadow: 0 2px 10px rgba(0, 61, 127, 0.5);
 	box-shadow: 0 2px 10px rgba(0, 61, 127, 0.5);
 }
-#header, #main, #footer
+#header, #main
 {
 	width: auto;
+	
 	padding: 10px 40px;
 }
 /*Header and Main Menu*/
@@ -239,8 +239,8 @@ A IMG
 {
 	background-color: rgba(0, 0, 0, 0.1);
 	background-color: #DAE2E5;
-	border-top: 8px solid #07498B;
 	text-align: center;
+	
 }
 #footer .widgets
 {
@@ -251,7 +251,6 @@ A IMG
 #footer .widget
 {
 	float: left;
-	width: 230px;
 	margin: 0px 10px;
 	padding: 10px 15px;
 }
@@ -293,7 +292,7 @@ BODY
 	font-size: 0.9em;
 	color: #222;
 	background: #EEF8FD url('../img/bg.jpg') no-repeat scroll top center;
-	font-family: "Droid Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-family: open sans;
 	text-align: justify;
 }
 H1, H2, H3, H4, H5, H6
@@ -392,7 +391,7 @@ BLOCKQUOTE
 B, STRONG, DFN
 {
 	font-weight: bold;
-	font-family: "Droid Sans Bold", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-family: open sans;
 }
 EM, DFN
 {
@@ -591,7 +590,7 @@ INPUT[type="button"], INPUT[type="submit"], INPUT[type="reset"], .button
 	font-size: 12px;
 	line-height: 12px;
 	text-decoration: none;
-	font-family: "Droid Sans", inherit;
+	font-family: open sans;
 	text-shadow: 0 -1px 1px #002B55;
 	border: none !important;
 	cursor: pointer;
